@@ -53,11 +53,7 @@ body{
     gap:10px;
 }
 
-.image-container{
-    flex:1;
-}
-
-#sign1{
+.sign1{
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: bold;
@@ -69,6 +65,7 @@ body{
 
 .image-container{
     display:flex;
+    flex:1;
     justify-content: center;
     align-items: center;;
     color:#F9FAF8;
@@ -88,27 +85,119 @@ ul{
 .container-2{
     display: flex;
     flex-direction: column;
+    padding-top:50px;
 }
 
 .quad-image-container{
+    padding-top: 40px;
+}
+
+.quad-alignment{
     display:flex;
-    gap: 20px;
+    justify-content: center;
+    gap:20px;
+}
+
+.subtext-alignment{
+    width:200px;
+    height:200px;
+    border: 5px white solid;
+    padding-top: 5px;
+    color: grey;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .container-image-1{
     width: 200px;
     height: 200px;
-    border: 5px solid lightskyblue;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.random-info-text{
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container-3{
+    display:flex;
+    flex-direction: column;
+    background-color: #e5e7e5;
+    padding: 150px 370px;
+    padding-bottom: 100px;
+}
+
+.quote-box{
+    display:flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-quote{
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.call-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    gap:100px;
 }
 
-.container-1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.vert{
+    display:flex;
+    flex-direction: column;
+    flex:1 1 0;
 }
 
+.call-message{
+    font-size: 20px;
+}
 
+.sign-up-message{
+    font-weight: lighter;
+}
+
+.sign2{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    border:2px solid white;
+    border-radius: 8px;
+    height: 35px;
+    width:110px;
+}
+
+.footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 25px 0px;
+}
 
 
 
